@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "98cd8ce434c23eec706b75a9682bca71",
+    "content-hash": "7bd5db3946987c6c17f209320c816887",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -321,6 +321,16 @@
                 "certificate",
                 "ssl",
                 "tls"
+            ],
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-04-08T08:27:21+00:00"
         },
@@ -3641,32 +3651,32 @@
         },
         {
             "name": "nasext/dependent-select-box",
-            "version": "3.1.4",
+            "version": "v5.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/NasExt/DependentSelectBox.git",
-                "reference": "1e11dfc35f7a43a53ca7a5b234cc89e163672cbf"
+                "reference": "4fe9e6bf1ecdb12b2a497aa84079c1f3f6fd0592"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NasExt/DependentSelectBox/zipball/1e11dfc35f7a43a53ca7a5b234cc89e163672cbf",
-                "reference": "1e11dfc35f7a43a53ca7a5b234cc89e163672cbf",
+                "url": "https://api.github.com/repos/NasExt/DependentSelectBox/zipball/4fe9e6bf1ecdb12b2a497aa84079c1f3f6fd0592",
+                "reference": "4fe9e6bf1ecdb12b2a497aa84079c1f3f6fd0592",
                 "shasum": ""
             },
             "require": {
-                "nette/application": "^2.4 || ~3.0.0",
-                "nette/forms": "^2.4 || ~3.0.0",
-                "nette/utils": "^2.4 || ~3.0.0",
-                "php": "~5.6.0 || ^7.0"
+                "nette/application": "^2.4 || ^3.0.0",
+                "nette/forms": "^2.4 || ^3.0.0",
+                "nette/utils": "^2.4 || ^3.0.0",
+                "php": "^7.1"
             },
             "require-dev": {
-                "latte/latte": "^2.4 || ~3.0.0",
-                "nette/bootstrap": "^2.4 || ~3.0.0",
-                "nette/di": "^2.4.6 || ~3.0.0",
-                "nette/http": "^2.4 || ~3.0.0",
-                "nette/robot-loader": "^2.4 || ~3.0.0",
+                "latte/latte": "^2.4 || ^3.0.0",
+                "nette/bootstrap": "^2.4 || ^3.0.0",
+                "nette/di": "^2.4.6 || ^3.0.0",
+                "nette/http": "^2.4 || ^3.0.0",
+                "nette/robot-loader": "^2.4 || ^3.0.0",
                 "nette/tester": "^2.0",
-                "tracy/tracy": "^2.4 || ~3.0.0"
+                "tracy/tracy": "^2.4 || ^3.0.0"
             },
             "type": "library",
             "autoload": {
@@ -3683,11 +3693,11 @@
                     "name": "Dusan Hudak"
                 },
                 {
-                    "name": "Aleš Wita",
-                    "email": "aleswita+github@gmail.com"
+                    "name": "Jáchym Toušek"
                 },
                 {
-                    "name": "Jáchym Toušek"
+                    "name": "Ales Wita",
+                    "email": "aleswita+github@gmail.com"
                 }
             ],
             "description": "Dependent Select Box for Nette Framework.",
@@ -3696,7 +3706,7 @@
                 "nasext",
                 "nette"
             ],
-            "time": "2018-03-08T05:10:43+00:00"
+            "time": "2020-02-27T11:41:15+00:00"
         },
         {
             "name": "nette/application",
@@ -6218,6 +6228,12 @@
                 "identifier",
                 "uuid"
             ],
+            "funding": [
+                {
+                    "url": "https://github.com/ramsey",
+                    "type": "github"
+                }
+            ],
             "time": "2020-03-29T20:13:32+00:00"
         },
         {
@@ -6302,6 +6318,15 @@
                 "log",
                 "logging",
                 "sentry"
+            ],
+            "funding": [
+                {
+                    "type": "custom"
+                },
+                {
+                    "url": "https://sentry.io/pricing/",
+                    "type": "custom"
+                }
             ],
             "time": "2020-03-06T09:24:53+00:00"
         },
@@ -6671,6 +6696,20 @@
                 "string",
                 "symfony",
                 "words"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-03-27T16:56:45+00:00"
         },
@@ -7360,6 +7399,20 @@
                 "property",
                 "property path",
                 "reflection"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-04-15T15:55:41+00:00"
         },
@@ -10101,12 +10154,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "327370943772f9917bc2dc2aa4263db2d572a112"
+                "reference": "065a018d3b5c2c84a53db3347cca4e1b7fa362a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/327370943772f9917bc2dc2aa4263db2d572a112",
-                "reference": "327370943772f9917bc2dc2aa4263db2d572a112",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/065a018d3b5c2c84a53db3347cca4e1b7fa362a6",
+                "reference": "065a018d3b5c2c84a53db3347cca4e1b7fa362a6",
                 "shasum": ""
             },
             "conflict": {
@@ -10122,7 +10175,7 @@
                 "bagisto/bagisto": "<0.1.5",
                 "barrelstrength/sprout-base-email": "<1.2.7",
                 "barrelstrength/sprout-forms": "<3.9",
-                "baserproject/basercms": ">=4,<=4.3.6",
+                "baserproject/basercms": ">=4,<=4.3.6|>=4.4,<4.4.1",
                 "bolt/bolt": "<3.7.1",
                 "brightlocal/phpwhois": "<=4.2.5",
                 "buddypress/buddypress": "<5.1.2",
@@ -10206,7 +10259,7 @@
                 "magento/magento1ee": ">=1,<1.14.4.3",
                 "magento/product-community-edition": ">=2,<2.2.10|>=2.3,<2.3.2-p.2",
                 "marcwillmann/turn": "<0.3.3",
-                "mediawiki/core": ">=1.31,<1.31.4|>=1.32,<1.32.4|>=1.33,<1.33.1",
+                "mediawiki/core": ">=1.31,<1.31.9|>=1.32,<1.32.4|>=1.33,<1.33.3|>=1.34,<1.34.3|>=1.34.99,<1.35",
                 "mittwald/typo3_forum": "<1.2.1",
                 "monolog/monolog": ">=1.8,<1.12",
                 "namshi/jose": "<2.2",
@@ -10221,7 +10274,8 @@
                 "onelogin/php-saml": "<2.10.4",
                 "oneup/uploader-bundle": "<1.9.3|>=2,<2.1.5",
                 "openid/php-openid": "<2.3",
-                "openmage/magento-lts": "<19.4.6|>=20,<20.0.2",
+                "openmage/magento-lts": "<19.4.8|>=20,<20.0.4",
+                "orchid/platform": ">=9,<9.4.4",
                 "oro/crm": ">=1.7,<1.7.4",
                 "oro/platform": ">=1.7,<1.7.4",
                 "padraic/humbug_get_contents": "<1.1.2",
@@ -10256,8 +10310,8 @@
                 "scheb/two-factor-bundle": ">=0,<3.26|>=4,<4.11",
                 "sensiolabs/connect": "<4.2.3",
                 "serluck/phpwhois": "<=4.2.6",
-                "shopware/core": "<=6.3.1",
-                "shopware/platform": "<=6.3.1",
+                "shopware/core": "<=6.3.2",
+                "shopware/platform": "<=6.3.2",
                 "shopware/shopware": "<5.3.7",
                 "silverstripe/admin": ">=1.0.3,<1.0.4|>=1.1,<1.1.1",
                 "silverstripe/assets": ">=1,<1.4.7|>=1.5,<1.5.2",
@@ -10290,7 +10344,7 @@
                 "sylius/grid": ">=1,<1.1.19|>=1.2,<1.2.18|>=1.3,<1.3.13|>=1.4,<1.4.5|>=1.5,<1.5.1",
                 "sylius/grid-bundle": ">=1,<1.1.19|>=1.2,<1.2.18|>=1.3,<1.3.13|>=1.4,<1.4.5|>=1.5,<1.5.1",
                 "sylius/resource-bundle": "<1.3.14|>=1.4,<1.4.7|>=1.5,<1.5.2|>=1.6,<1.6.4",
-                "sylius/sylius": "<1.3.16|>=1.4,<1.4.12|>=1.5,<1.5.9|>=1.6,<1.6.5",
+                "sylius/sylius": "<1.6.9|>=1.7,<1.7.9|>=1.8,<1.8.3",
                 "symbiote/silverstripe-multivaluefield": ">=3,<3.0.99",
                 "symbiote/silverstripe-versionedfiles": "<=2.0.3",
                 "symfony/cache": ">=3.1,<3.4.35|>=4,<4.2.12|>=4.3,<4.3.8",
@@ -10403,7 +10457,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-19T07:02:45+00:00"
+            "time": "2020-11-01T20:01:47+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
